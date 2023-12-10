@@ -3,9 +3,9 @@ while (tanya) {
   var p = prompt("masukkan pilihan anda : \n batu, gunting, kertas");
   var com = Math.random();
 
-  if (com < 0.34) {
+  if (com < 0.38) {
     com = "batu";
-  } else if (com >= 0.34 && com < 0.67) {
+  } else if (com >= 0.38 && com < 0.7) {
     com = "gunting";
   } else {
     com = "kertas";
