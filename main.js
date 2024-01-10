@@ -23,7 +23,7 @@ while (tanya) {
     //   }
     hasil = com == "gunting" ? "MENANG" : "KALAH";
   } else if (p == "gunting") {
-    hasil = com == "batu" ? "MENANG" : "KALAH";
+    hasil = com == "batu" ? "KALAH" : "MENANG";
   } else if (p == "kertas") {
     hasil = com == "batu" ? "MENANG" : "KALAH";
   } else {
