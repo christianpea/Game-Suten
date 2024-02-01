@@ -1,4 +1,4 @@
-const tanya = true;
+let tanya = true;
 while (tanya) {
   let p = prompt("masukkan pilihan anda : \n batu, gunting, kertas");
   let com = Math.random();
