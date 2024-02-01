@@ -1,7 +1,7 @@
-var tanya = true;
+const tanya = true;
 while (tanya) {
-  var p = prompt("masukkan pilihan anda : \n batu, gunting, kertas");
-  var com = Math.random();
+  let p = prompt("masukkan pilihan anda : \n batu, gunting, kertas");
+  let com = Math.random();
 
   if (com < 0.38) {
     com = "batu";
@@ -11,7 +11,7 @@ while (tanya) {
     com = "kertas";
   }
 
-  var hasil = "";
+  let hasil = "";
 
   if (p == com) {
     hasil = "SERI";
